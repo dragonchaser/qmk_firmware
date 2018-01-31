@@ -50,6 +50,7 @@ endif
 ifeq ($(strip $(KEYBOARD)), planck/light)
     BOOTLOADER = qmk-dfu
 endif
+BOOTLOADER = halfkay
 
 # Interrupt driven control endpoint task(+60)
 OPT_DEFS += -DINTERRUPT_CONTROL_ENDPOINT
